@@ -1,0 +1,8 @@
+# nr książki wysokość książki grubość książki tematyka książki
+1, 14, 10, 3
+2, 15, 5, 4
+3, 9, 8, 3
+4, 10, 12, 4
+5, 12, 15, 4
+6, 10, 10, 3
+7, 15, 10, 4

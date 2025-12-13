@@ -1,0 +1,3 @@
+# nr półki	wysokość półki	szerokość półki
+1, 15, 30
+2, 20, 40
