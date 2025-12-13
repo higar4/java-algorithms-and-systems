@@ -31,7 +31,7 @@ public class MainWindow extends JFrame {
         setSize(800, 500);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());
-        JPanel topPanel = new JPanel(new FlowLayout(FlowLayout.LEFT)); // Wyrównanie do lewej
+        JPanel topPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
         topPanel.add(new JLabel("Temat:"));
         topicSelector = new JComboBox<>(new GusTopic[]{
                 new GusTopic("Przestępstwa stwierdzone przez Policję ogółem na 1000 mieszkańców",398594,"Liczba przestępstw"),
