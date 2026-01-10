@@ -8,11 +8,12 @@ Każdy projekt porusza inne aspekty programowania: od integracji z zewnętrznymi
 
 ## 📂 Przegląd Projektów
 
-| Projekt | Opis | Kluczowe Technologie | Link |
-| :--- | :--- | :--- | :---: |
+| Projekt                    | Opis | Kluczowe Technologie | Link |
+|:---------------------------| :--- | :--- | :---: |
 | **📊 GUS BDL Data Viewer** | Aplikacja okienkowa (GUI) pobierająca dynamicznie dane statystyczne z Banku Danych Lokalnych (GUS). Prezentuje wskaźniki makroekonomiczne dla województw. | `REST API` `JSON` `Swing/AWT` `Http Client` | [Zobacz](./GUS-API) |
-| **🛶 Kayak Rental CRUD** | Rozproszony system rezerwacji kajaków symulujący pracę na współdzielonych zasobach. Obsługuje wielodostęp i transakcyjność na plikach. | `Concurrency` `Java IO` `Serialization` `State Machine` | [Zobacz](./CRUD-kayak-project) |
-| **📚 Library Optimizer** | Projekt algorytmiczny rozwiązujący problem optymalnego rozmieszczenia książek na półkach (Bin Packing Problem). | `Algorithms` `Greedy Strategy` `OOP` `Optimization` | [Zobacz](./library-shelf-optimizer) |
+| **🛶 Kayak Rental CRUD**   | Rozproszony system rezerwacji kajaków symulujący pracę na współdzielonych zasobach. Obsługuje wielodostęp i transakcyjność na plikach. | `Concurrency` `Java IO` `Serialization` `State Machine` | [Zobacz](./CRUD-kayak-project) |
+| **📚 Library Optimizer**   | Projekt algorytmiczny rozwiązujący problem optymalnego rozmieszczenia książek na półkach (Bin Packing Problem). | `Algorithms` `Greedy Strategy` `OOP` `Optimization` | [Zobacz](./library-shelf-optimizer) |
+| **🏭 Production Line**     | Symulator systemów współbieżnych wizualizujący problem producenta-konsumenta na wspólnym torze. Implementuje autorskie algorytmy zapobiegania zakleszczeniom (Deadlock Prevention) i priorytetyzacji wątków. | `Java Threads` `Swing` `Monitor Pattern` `Traffic Algorithms` | [Zobacz](./lab05-production-line) |
 
 ## 🛠️ Stack Technologiczny
 
