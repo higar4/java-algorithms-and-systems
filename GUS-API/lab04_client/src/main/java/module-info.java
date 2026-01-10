@@ -1,6 +1,7 @@
 module lab04.client {
     requires java.net.http;
-    requires org.json;
+    requires transitive org.json;
+
 
     exports org.client;
 }
