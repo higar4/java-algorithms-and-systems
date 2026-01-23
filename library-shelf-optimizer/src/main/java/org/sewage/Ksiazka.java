@@ -1,4 +1,4 @@
-package org.example;
+package org.sewage;
 
 public class Ksiazka {
     int id;

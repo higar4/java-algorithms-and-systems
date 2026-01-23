@@ -1,4 +1,4 @@
-    package org.example;
+    package org.sewage;
 
     import java.io.*;
     import java.util.*;
