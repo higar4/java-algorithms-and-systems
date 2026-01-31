@@ -120,7 +120,6 @@ public class Tanker implements ITanker {
                     }
                 });
 
-                // Czyścimy obecne zadanie
                 currentJob = null;
 
             } catch (RemoteException e) {
@@ -134,7 +133,6 @@ public class Tanker implements ITanker {
             if (currentLoad == 0) return;
             try {
                 log("Jadę do oczyszczalni...");
-                // RMI: Zrzucamy ścieki do Oczyszczalni
                 plant.setPumpIn(myId, currentLoad);
 
                 log("Zrzucono " + currentLoad + "L");
@@ -144,7 +142,7 @@ public class Tanker implements ITanker {
                     updateLoadBar();
                     statusLabel.setText("Pusta. Zgłoś gotowość.");
                     btnDump.setEnabled(false);
-                    btnReady.setEnabled(true); // Teraz możemy wziąć nowe zlecenie
+                    btnReady.setEnabled(true);
                 });
 
             } catch (RemoteException e) {
