@@ -8,19 +8,20 @@ Każdy projekt porusza inne aspekty programowania: od integracji z zewnętrznymi
 
 ## 📂 Przegląd Projektów
 
-| Projekt                    | Opis | Kluczowe Technologie | Link |
-|:---------------------------| :--- | :--- | :---: |
+| Projekt                    | Opis                                                                                                                                                                                                                                               | Kluczowe Technologie | Link |
+|:---------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| :--- | :---: |
+| **🔗 Sewage System RMI** | Ewolucja symulatora wywozu nieczystości. Migracja warstwa komunikacyjnej z surowych gniazd TCP na Java RMI. Wprowadza rejestr usług ("Krawiec") oraz zdalne przekazywanie referencji do obiektów zamiast parsowania tekstu.                        | `Java RMI` `Distributed Objects` `Refactoring` `Swing` | [Zobacz](./Sewage-System-RMI) |
 | **🚛 Sewage System Simulator** | System rozproszony w architekturze Klient-Serwer symulujący proces zamawiania i wywozu nieczystości. Składa się z 4 niezależnych aplikacji komunikujących się własnym protokołem tekstowym przez TCP/IP. Każdy moduł posiada panel sterowania GUI. | `Java Sockets` `TCP/IP` `Distributed Systems` `Swing` | [Zobacz](./Sewage-System) |
-| **🏭 Production Line** | Symulator systemów współbieżnych wizualizujący problem producenta-konsumenta na wspólnym torze. Implementuje autorskie algorytmy zapobiegania zakleszczeniom (Deadlock Prevention) i priorytetyzacji wątków. | `Java Threads` `Swing` `Monitor Pattern` `Traffic Algorithms` | [Zobacz](./lab05-production-line) |
-| **📚 Library Optimizer** | Projekt algorytmiczny rozwiązujący problem optymalnego rozmieszczenia książek na półkach (Bin Packing Problem). | `Algorithms` `Greedy Strategy` `OOP` `Optimization` | [Zobacz](./library-shelf-optimizer) |
-| **🛶 Kayak Rental CRUD** | Rozproszony system rezerwacji kajaków symulujący pracę na współdzielonych zasobach. Obsługuje wielodostęp i transakcyjność na plikach. | `Concurrency` `Java IO` `Serialization` `State Machine` | [Zobacz](./CRUD-kayak-project) |
-| **📊 GUS BDL Data Viewer** | Aplikacja okienkowa (GUI) pobierająca dynamicznie dane statystyczne z Banku Danych Lokalnych (GUS). Prezentuje wskaźniki makroekonomiczne dla województw. | `REST API` `JSON` `Swing/AWT` `Http Client` | [Zobacz](./GUS-API) |
+| **🏭 Production Line** | Symulator systemów współbieżnych wizualizujący problem producenta-konsumenta na wspólnym torze. Implementuje autorskie algorytmy zapobiegania zakleszczeniom (Deadlock Prevention) i priorytetyzacji wątków.                                       | `Java Threads` `Swing` `Monitor Pattern` `Traffic Algorithms` | [Zobacz](./lab05-production-line) |
+| **📚 Library Optimizer** | Projekt algorytmiczny rozwiązujący problem optymalnego rozmieszczenia książek na półkach (Bin Packing Problem).                                                                                                                                    | `Algorithms` `Greedy Strategy` `OOP` `Optimization` | [Zobacz](./library-shelf-optimizer) |
+| **🛶 Kayak Rental CRUD** | Rozproszony system rezerwacji kajaków symulujący pracę na współdzielonych zasobach. Obsługuje wielodostęp i transakcyjność na plikach.                                                                                                             | `Concurrency` `Java IO` `Serialization` `State Machine` | [Zobacz](./CRUD-kayak-project) |
+| **📊 GUS BDL Data Viewer** | Aplikacja okienkowa (GUI) pobierająca dynamicznie dane statystyczne z Banku Danych Lokalnych (GUS). Prezentuje wskaźniki makroekonomiczne dla województw.                                                                                          | `REST API` `JSON` `Swing/AWT` `Http Client` | [Zobacz](./GUS-API) |
 
 ## 🛠️ Stack Technologiczny
 
 W projektach wykorzystuję sprawdzone wzorce i narzędzia:
 * **Core:** Java SE (Collections, Stream API, Multithreading)
-* **Network:** Java Sockets (TCP/IP), Custom Protocols, Client-Server Architecture
+* **Network:** Java Sockets (TCP/IP), Java RMI, Custom Protocols, Client-Server Architecture
 * **Build:** Maven
 * **Data:** JSON (org.json), Java Serialization, Custom File Parsing
 * **VCS:** Git & GitHub
